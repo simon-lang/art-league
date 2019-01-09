@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Art League</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <template id="result-template">
+            <div class="result"></div>
+        </template>
+
+        <div class="scene container scene--active" id="results">
+            <div>
+                <h1 class="logo" id="home-link">
+                    <div class="logo__icon">
+                        <img src="logo.svg" alt="">
+                    </div>
+                    Art League
+                </h1>
+            </div>
+        </div>
+
+        <div class="scene container home" id="home">
+            <h1 class="logo">
+                <div class="logo__icon">
+                    <img src="logo.svg" alt="">
+                </div>
+                Art League
+            </h1>
+            <form action="">
+
+                <input type="text"
+                       required
+                       class="input"
+                       autofocus
+                       spellcheck="false"
+                    />
+                <div class="disabled" id="actions">
+                    <a class="btn" id="btn-start" href="/">Get Started</a>
+                </div>
+        </div>
+        <script>
+            document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+                ':35729/livereload.js?snipver=1"></' + 'script>')
+        </script>
+    </body>
+</html>

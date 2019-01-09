@@ -1,0 +1,10 @@
+{
+  "name": "art-league",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Simon Lang <simon.lang@cambia.org>",
+  "license": "MIT",
+  "dependencies": {
+    "livereload": "^0.7.0"
+  }
+}
