@@ -14,37 +14,62 @@
             <div class="result"></div>
         </template>
 
-        <div class="scene container scene--active" id="results">
-            <div>
-                <h1 class="logo" id="home-link">
-                    <div class="logo__icon">
-                        <img src="logo.svg" alt="">
-                    </div>
-                    Art League
-                </h1>
+        <h1 class="logo">
+            <img src="logo-bw.png" alt="">
+        </h1>
+        <div class="scene container home scene--active" id="home">
+            <div class="scene-header">
+                <p class="artist__name text-center large">
+                    Anri Sala
+                </p>
+                <div class="main__value text-center large">
+                    45, 974
+                </div>
+                <p class="text--negative text-center">
+                    -4.6%
+                </p>
+                <div class="line-chart text-center">
+                    <div id="vis1"></div>
+                </div>
             </div>
-        </div>
 
-        <div class="scene container home" id="home">
-            <h1 class="logo">
-                <div class="logo__icon">
-                    <img src="logo.svg" alt="">
+            <div class="metrics-wrap">
+                <div class="metrics">
+                    <div class="metric">
+                        <h4 class="metric__label flat">Market</h4>
+                        <p class="metric__value large">3,689</p>
+                        <p class="metric__trend text--negative">-22.8%</p>
+                    </div>
+                    <div class="metric">
+                        <h4 class="metric__label flat">Social</h4>
+                        <p class="metric__value large">41,663</p>
+                        <p class="metric__trend text--negative">-2.9%</p>
+                    </div>
+                    <div class="metric">
+                        <h4 class="metric__label flat">Collection</h4>
+                        <p class="metric__value large">291</p>
+                        <p class="metric__trend text--positive">42.0%</p>
+                    </div>
+                    <div class="metric">
+                        <h4 class="metric__label flat">Exhibition</h4>
+                        <p class="metric__value large">331</p>
+                        <p class="metric__trend text--positive">12.6%</p>
+                    </div>
                 </div>
-                Art League
-            </h1>
-            <form action="">
 
-                <input type="text"
-                       required
-                       class="input"
-                       autofocus
-                       spellcheck="false"
-                    />
-                <div class="disabled" id="actions">
-                    <a class="btn" id="btn-start" href="/">Get Started</a>
+                <div class="metrics-actions">
+                    <div class="btn btn--positive metrics-action-button">BUY</div>
+                    <div class="btn btn--negative metrics-action-button">SELL</div>
                 </div>
+            </div>
+
         </div>
-        <script>
+        <script src="https://cdn.jsdelivr.net/npm/vega@4"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+        <script src="https://unpkg.com/vue"></script>
+        <script src="app.js"></script>
+            <script>
             document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
                 ':35729/livereload.js?snipver=1"></' + 'script>')
         </script>
