@@ -66,10 +66,10 @@ document.addEventListener('DOMContentLoaded', e => {
     }).catch(console.error)
 })
 
-const app = new Vue({
+const app = new window.Vue({
     el: '#app',
     data: {
-        index: 0,
+        view: 'home',
     },
     mounted: function () {
         console.log('mounted')
@@ -80,8 +80,8 @@ const app = new Vue({
         // window.addEventListener('scroll', scrollWindow)
     },
     methods: {
-        next: function () {
-            this.index++
+        go: function (v) {
+            this.view = v
         },
     }
 })
