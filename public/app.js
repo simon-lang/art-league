@@ -92,3 +92,21 @@ document.addEventListener('DOMContentLoaded', e => {
     //     console.log(result.view)
     // }).catch(console.error)
 })
+
+const app = new Vue({
+    el: '#app',
+    data: {
+        index: 0,
+    },
+    mounted: function () {
+        document.querySelectorAll('.loading').forEach(el => {
+            el.remove()
+        })
+        // window.addEventListener('scroll', scrollWindow)
+    },
+    methods: {
+        next: function () {
+            this.index++
+        },
+    }
+})
