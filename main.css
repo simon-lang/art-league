@@ -203,7 +203,6 @@ label small {
     display: block;
 }
 .container {
-    height: 100vh;
     margin: 0 auto;
     padding: 1rem;
 }
@@ -305,5 +304,28 @@ label small {
 
 .portfolio-row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(0,0,0,0.25);
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.portfolio-item--name,
+.portfolio-item--price {
+    width: 20%;
+}
+
+.portfolio-item--chart {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.vega-embed {
+  padding: 0 !important;
+}
+
+.vega-embed canvas {
+  width: 100% !important;
 }

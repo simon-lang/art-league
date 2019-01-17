@@ -47,8 +47,8 @@ const getSpec = () => {
         "data": {
             "values": getData()
         },
-        "width": 343,
-        "height": 100,
+        "width": 130,
+        "height": 40,
         "mark": "line",
         "encoding": {
             "x": {
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', e => {
 const app = new window.Vue({
     el: '#app',
     data: {
-        view: 'home',
+        view: 'portfolio',
     },
     mounted: function () {
         console.log('mounted')
