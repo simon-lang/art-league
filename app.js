@@ -10,27 +10,6 @@ const getData = () => {
         series: 2,
     }))
     return a.concat(b)
-    return [
-        { "year": 2001, "value": 2, "series": 1 },
-        { "year": 2002, "value": 2, "series": 1 },
-        { "year": 2003, "value": 2, "series": 1 },
-        { "year": 2004, "value": 2, "series": 1 },
-        { "year": 2005, "value": 2, "series": 1 },
-        { "year": 2006, "value": 2, "series": 1 },
-        { "year": 2007, "value": 4, "series": 1 },
-        { "year": 2008, "value": 1, "series": 1 },
-        { "year": 2009, "value": 4, "series": 1 },
-
-        { "year": 2001, "value": 3, "series": 2 },
-        { "year": 2002, "value": 2, "series": 2 },
-        { "year": 2003, "value": 3, "series": 2 },
-        { "year": 2004, "value": 3, "series": 2 },
-        { "year": 2005, "value": 1, "series": 2 },
-        { "year": 2006, "value": 1, "series": 2 },
-        { "year": 2007, "value": 3, "series": 2 },
-        { "year": 2008, "value": 4, "series": 2 },
-        { "year": 2009, "value": 5, "series": 2 }
-    ]
 }
 
 const getSpec = () => {
