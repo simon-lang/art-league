@@ -50,35 +50,41 @@ const getSpec = () => {
     }
 }
 
-document.addEventListener('DOMContentLoaded', e => {
-    console.log('DOMContentLoaded')
+const Home = { template: require('./home.html') }
+const Portfolio = { template: require('./portfolio.html') }
+const Profile = { template: require('./profile.html') }
+const Calculator = { template: require('./calculator.html') }
 
-    const opts = {
-        actions: false,
-        defaultStyle: true,
-    }
-    document.querySelectorAll('.vis').forEach(el => {
-        const spec = getSpec()
-        vegaEmbed(el, spec, opts).catch(console.error)
-    })
-})
+const routes = [
+    { path: '/', component: Home },
+    { path: '/portfolio', component: Portfolio },
+    { path: '/profile', component: Profile },
+    { path: '/calculator', component: Calculator },
+]
+
+const router = new VueRouter({ routes })
 
 const app = new window.Vue({
-    el: '#app',
+    router,
     data: {
-        view: 'portfolio',
+        // view: 'portfolio',
     },
     mounted: function () {
         console.log('mounted')
-
-        document.querySelectorAll('.loading').forEach(el => {
-            el.remove()
+        const opts = {
+            actions: false,
+            defaultStyle: true,
+        }
+        document.querySelectorAll('.vis').forEach(el => {
+            const spec = getSpec()
+            vegaEmbed(el, spec, opts).catch(console.error)
         })
+
         // window.addEventListener('scroll', scrollWindow)
     },
     methods: {
-        go: function (v) {
-            this.view = v
+        go: function (path) {
+            this.$router.push(path)
         },
     }
-})
+}).$mount('#app')

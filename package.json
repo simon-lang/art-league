@@ -5,6 +5,11 @@
   "author": "Simon Lang <simon.lang@cambia.org>",
   "license": "MIT",
   "dependencies": {
-    "livereload": "^0.7.0"
+    "html-loader": "^0.5.5",
+    "livereload": "^0.7.0",
+    "webpack": "^4.29.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
   }
 }

@@ -198,6 +198,8 @@ label small {
 
 .scene {
     display: none;
+    max-width: 600px;
+    margin: 0 auto;
 }
 .scene--active {
     display: block;
@@ -329,3 +331,26 @@ label small {
 .vega-embed canvas {
   width: 100% !important;
 }
+
+.link {
+    cursor: pointer;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.keypad-item {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 8rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* transition: background-color 0.2s ease; */
+    cursor: pointer;
+    opacity: 0.9;
+}
+.keypad-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
