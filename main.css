@@ -304,6 +304,11 @@ label small {
     animation: revealBody 1125ms 375ms ease forwards;
 }
 
+.scene-body {
+    opacity: 0;
+    animation: revealBody 1125ms 375ms ease forwards;
+}
+
 .portfolio-row {
     display: flex;
     justify-content: space-between;
@@ -354,3 +359,26 @@ label small {
     opacity: 1;
 }
 
+
+.home-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.home-table-heading {
+    background: #424149;
+    text-align: left;
+}
+.home-table th,
+.home-table td {
+    padding: 0.6em 0.4em;
+}
+.home-table td {
+    background: rgba(0, 0, 0, 0.2);
+}
+.home-table tr:hover td {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+a {
+    text-decoration: none;
+}

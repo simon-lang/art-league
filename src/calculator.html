@@ -9,22 +9,33 @@
         <p class="text--negative text-center">
             -4.6%
         </p>
-        <div class="line-chart text-center">
-            <div class="vis"></div>
+    </div>
+    <div class="scene-body">
+        <input class="input text-center"
+            type="text"
+            placeholder="Total (ALC)"
+            v-model="value"
+        >
+
+        <div class="keypad">
+            <div class="keypad-item" @click="add(1)">1</div>
+            <div class="keypad-item" @click="add(2)">2</div>
+            <div class="keypad-item" @click="add(3)">3</div>
+            <div class="keypad-item" @click="add(4)">4</div>
+            <div class="keypad-item" @click="add(5)">5</div>
+            <div class="keypad-item" @click="add(6)">6</div>
+            <div class="keypad-item" @click="add(7)">7</div>
+            <div class="keypad-item" @click="add(8)">8</div>
+            <div class="keypad-item" @click="add(9)">9</div>
+            <div class="keypad-item"></div>
+            <div class="keypad-item" @click="add(0)">0</div>
+            <div class="keypad-item"></div>
+        </div>
+
+        <div class="metrics-actions">
+            <router-link to="/portfolio" class="btn btn--positive metrics-action-button">BUY</router-link>
+            <router-link to="/portfolio" class="btn btn--negative metrics-action-button">SELL</router-link>
         </div>
     </div>
 
-    <input type="text" placeholder="Total (ALC)">
-
-    <div class="keypad">
-        <div class="keypad-item">1</div>
-        <div class="keypad-item">2</div>
-        <div class="keypad-item">3</div>
-        <div class="keypad-item">4</div>
-        <div class="keypad-item">5</div>
-        <div class="keypad-item">6</div>
-        <div class="keypad-item">7</div>
-        <div class="keypad-item">8</div>
-        <div class="keypad-item">9</div>
-    </div>
 </div>

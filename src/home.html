@@ -1,5 +1,47 @@
 <div class="container scene scene--active">
-    <ul>
+    <div class="scene-header">
+        <div class="text-center">
+            Art Market
+        </div>
+        <div class="text-center large">
+            194,200
+        </div>
+        <p class="text--positive text-center">
+            6.8%
+        </p>
+    </div>
+    <div class="line-chart text-center" style="height: 210px;">
+        <div v-big-vis class="vis"></div>
+    </div>
+
+    <table class="home-table">
+        <thead>
+            <tr>
+                <th class="home-table-heading"></th>
+                <th class="home-table-heading">Artist</th>
+                <th class="home-table-heading">Value</th>
+                <th class="home-table-heading">%</th>
+                <th class="home-table-heading">Total Market Value</th>
+                <th class="home-table-heading">%</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="(artist, i) in artists">
+                <td>{{i + 1}}.</td>
+                <td>
+                    <router-link to="/profile">
+                        {{artist[0]}}
+                    </router-link>
+                </td>
+                <td>{{artist[1].toLocaleString()}}</td>
+                <td>2</td>
+                <td>{{artist[2].toLocaleString()}}</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul hidden>
         <li><router-link to="/portfolio">Portfolio</router-link><br></li>
         <li><router-link to="/profile">Artist Profile</router-link><br></li>
         <li><router-link to="/calculator">Buy / Sell</router-link><br></li>
