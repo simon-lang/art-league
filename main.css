@@ -85,16 +85,41 @@ a.unstyled {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.logo-wrap {
+.header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: rgba(0, 0, 0, 0.4);
     padding: 1rem;
-    text-align: center;
+    overflow: hidden;
 }
+
+.chart {
+    fill: none;
+    margin-left: -12px;
+    margin-right: -6px;
+}
+
+.wallet {
+    display: flex;
+    align-items: center;
+}
+
+.wallet__icon {
+    background: #ffc107;
+    color: #333;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    margin-left: 8px;
+    font-size: 11px;
+}
+
 .logo {
-    max-width: 280px;
+    width: 180px;
+    margin-left: -15px;
 }
 
 .logo__back {
@@ -196,14 +221,6 @@ label small {
     flex: 1;
 }
 
-.scene {
-    display: none;
-    max-width: 600px;
-    margin: 0 auto;
-}
-.scene--active {
-    display: block;
-}
 .container {
     margin: 0 auto;
     padding: 1rem;
@@ -211,12 +228,6 @@ label small {
 
 .container > div {
     flex: 1;
-}
-
-.home {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .fade {
@@ -227,27 +238,32 @@ label small {
     display: flex;
 }
 
-
-.metric__value {
-
-}
-
 .artist__name {
     opacity: 0.6;
 }
 
 .line-chart {
-    width: 100%;
-    height: 100px;
-    line-height: 140px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.4);
-    margin-bottom: 1em;
+    height: 0;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
 }
+.vega-embed {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.line-chart .vega-embed .marks {
+    width: 100% !important;
+    height: 100% !important;
+}
+.line-chart .vega-embed .marks g {
+    width: 100% !important;
+    height: 100% !important;
+ }
 
-.metrics-wrap {
-    margin: 40px 40px 0;
-}
 .metrics-actions {
     margin-top: 20px;
     display: flex;
@@ -319,7 +335,16 @@ label small {
     margin-bottom: 2px;
 }
 
-.portfolio-item--name,
+.profile {
+    padding-right: 20px;
+}
+
+.profile__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .portfolio-item--price {
     width: 20%;
 }
@@ -377,6 +402,14 @@ label small {
 }
 .home-table tr:hover td {
     background: rgba(0, 0, 0, 0.6);
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+    padding: 1em;
+    padding-top: 2em;
 }
 
 a {

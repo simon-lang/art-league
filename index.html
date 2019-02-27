@@ -14,12 +14,24 @@
         </template>
 
         <div id="app">
-            <h1 class="logo-wrap">
+            <header class="header">
                 <router-link to="/">
                     <img class="logo" src="logo-bw.png" alt="">
                 </router-link>
-            </h1>
-            <router-view></router-view>
+                <div>
+                    <div class="wallet">
+                        <p class="flat">1,443</p>
+                        <div class="wallet__icon">
+                            <i class="fa fa-money"></i>
+                        </div>
+                    </div>
+                    <a href="#"></a>
+                </div>
+            </header>
+            <div class="app">
+                <router-view></router-view>
+                <portfolio></portfolio>
+            </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/vega@4"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>

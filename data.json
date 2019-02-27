@@ -1,0 +1,852 @@
+[
+    {
+        "color": "Australian National University",
+        "label": "1985",
+        "value": 844
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1985",
+        "value": 691
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1985",
+        "value": 685
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1985",
+        "value": 624
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1985",
+        "value": 560
+    },
+    {
+        "color": "Australian National University",
+        "label": "1986",
+        "value": 866
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1986",
+        "value": 681
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1986",
+        "value": 625
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1986",
+        "value": 585
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1986",
+        "value": 583
+    },
+    {
+        "color": "Australian National University",
+        "label": "1987",
+        "value": 922
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1987",
+        "value": 799
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1987",
+        "value": 696
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1987",
+        "value": 600
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1987",
+        "value": 529
+    },
+    {
+        "color": "Australian National University",
+        "label": "1988",
+        "value": 953
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1988",
+        "value": 795
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1988",
+        "value": 765
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1988",
+        "value": 722
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1988",
+        "value": 606
+    },
+    {
+        "color": "Australian National University",
+        "label": "1989",
+        "value": 878
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1989",
+        "value": 817
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1989",
+        "value": 769
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1989",
+        "value": 697
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1989",
+        "value": 636
+    },
+    {
+        "color": "Australian National University",
+        "label": "1990",
+        "value": 1001
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1990",
+        "value": 887
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1990",
+        "value": 854
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1990",
+        "value": 783
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1990",
+        "value": 727
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1991",
+        "value": 947
+    },
+    {
+        "color": "Australian National University",
+        "label": "1991",
+        "value": 907
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1991",
+        "value": 883
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1991",
+        "value": 842
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1991",
+        "value": 821
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1992",
+        "value": 1062
+    },
+    {
+        "color": "Australian National University",
+        "label": "1992",
+        "value": 1009
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1992",
+        "value": 953
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1992",
+        "value": 935
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1992",
+        "value": 887
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1993",
+        "value": 1097
+    },
+    {
+        "color": "Australian National University",
+        "label": "1993",
+        "value": 1050
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1993",
+        "value": 1046
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1993",
+        "value": 1030
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1993",
+        "value": 1014
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1994",
+        "value": 1286
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1994",
+        "value": 1185
+    },
+    {
+        "color": "Australian National University",
+        "label": "1994",
+        "value": 1121
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1994",
+        "value": 1114
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1994",
+        "value": 1094
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1995",
+        "value": 1407
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1995",
+        "value": 1262
+    },
+    {
+        "color": "Australian National University",
+        "label": "1995",
+        "value": 1251
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1995",
+        "value": 1216
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1995",
+        "value": 1205
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1996",
+        "value": 1621
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1996",
+        "value": 1421
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1996",
+        "value": 1370
+    },
+    {
+        "color": "Australian National University",
+        "label": "1996",
+        "value": 1367
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1996",
+        "value": 1273
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1997",
+        "value": 1597
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1997",
+        "value": 1471
+    },
+    {
+        "color": "Australian National University",
+        "label": "1997",
+        "value": 1452
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1997",
+        "value": 1406
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1997",
+        "value": 1338
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1998",
+        "value": 1743
+    },
+    {
+        "color": "Australian National University",
+        "label": "1998",
+        "value": 1601
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1998",
+        "value": 1536
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1998",
+        "value": 1513
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1998",
+        "value": 1483
+    },
+    {
+        "color": "University of Sydney",
+        "label": "1999",
+        "value": 1972
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "1999",
+        "value": 1690
+    },
+    {
+        "color": "University of Queensland",
+        "label": "1999",
+        "value": 1633
+    },
+    {
+        "color": "Australian National University",
+        "label": "1999",
+        "value": 1598
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "1999",
+        "value": 1484
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2000",
+        "value": 1999
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2000",
+        "value": 1869
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2000",
+        "value": 1753
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2000",
+        "value": 1668
+    },
+    {
+        "color": "Australian National University",
+        "label": "2000",
+        "value": 1594
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2001",
+        "value": 2139
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2001",
+        "value": 2138
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2001",
+        "value": 1859
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2001",
+        "value": 1755
+    },
+    {
+        "color": "Australian National University",
+        "label": "2001",
+        "value": 1602
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2002",
+        "value": 2414
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2002",
+        "value": 2197
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2002",
+        "value": 2105
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2002",
+        "value": 2020
+    },
+    {
+        "color": "Australian National University",
+        "label": "2002",
+        "value": 1663
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2003",
+        "value": 2674
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2003",
+        "value": 2540
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2003",
+        "value": 2433
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2003",
+        "value": 2292
+    },
+    {
+        "color": "Australian National University",
+        "label": "2003",
+        "value": 1951
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2004",
+        "value": 2839
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2004",
+        "value": 2758
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2004",
+        "value": 2586
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2004",
+        "value": 2507
+    },
+    {
+        "color": "Australian National University",
+        "label": "2004",
+        "value": 2172
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2005",
+        "value": 3276
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2005",
+        "value": 3238
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2005",
+        "value": 3098
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2005",
+        "value": 2811
+    },
+    {
+        "color": "Australian National University",
+        "label": "2005",
+        "value": 2389
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2006",
+        "value": 4025
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2006",
+        "value": 3956
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2006",
+        "value": 3420
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2006",
+        "value": 3111
+    },
+    {
+        "color": "Australian National University",
+        "label": "2006",
+        "value": 2871
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2007",
+        "value": 4487
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2007",
+        "value": 4407
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2007",
+        "value": 3799
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2007",
+        "value": 3403
+    },
+    {
+        "color": "Australian National University",
+        "label": "2007",
+        "value": 2856
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2008",
+        "value": 4981
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2008",
+        "value": 4843
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2008",
+        "value": 4108
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2008",
+        "value": 3794
+    },
+    {
+        "color": "Australian National University",
+        "label": "2008",
+        "value": 3034
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2009",
+        "value": 5602
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2009",
+        "value": 5480
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2009",
+        "value": 4729
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2009",
+        "value": 4320
+    },
+    {
+        "color": "Australian National University",
+        "label": "2009",
+        "value": 3346
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2010",
+        "value": 6286
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2010",
+        "value": 5618
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2010",
+        "value": 5261
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2010",
+        "value": 4924
+    },
+    {
+        "color": "Australian National University",
+        "label": "2010",
+        "value": 3357
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2011",
+        "value": 6578
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2011",
+        "value": 6095
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2011",
+        "value": 5517
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2011",
+        "value": 5325
+    },
+    {
+        "color": "Australian National University",
+        "label": "2011",
+        "value": 3375
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2012",
+        "value": 7151
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2012",
+        "value": 6512
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2012",
+        "value": 6172
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2012",
+        "value": 6018
+    },
+    {
+        "color": "Australian National University",
+        "label": "2012",
+        "value": 3548
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2013",
+        "value": 7820
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2013",
+        "value": 7355
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2013",
+        "value": 7068
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2013",
+        "value": 6849
+    },
+    {
+        "color": "Australian National University",
+        "label": "2013",
+        "value": 3939
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2014",
+        "value": 8370
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2014",
+        "value": 7807
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2014",
+        "value": 7408
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2014",
+        "value": 7290
+    },
+    {
+        "color": "Australian National University",
+        "label": "2014",
+        "value": 4185
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2015",
+        "value": 8773
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2015",
+        "value": 8469
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2015",
+        "value": 7860
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2015",
+        "value": 7723
+    },
+    {
+        "color": "Australian National University",
+        "label": "2015",
+        "value": 4226
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2016",
+        "value": 9823
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2016",
+        "value": 8741
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2016",
+        "value": 8264
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2016",
+        "value": 7808
+    },
+    {
+        "color": "Australian National University",
+        "label": "2016",
+        "value": 4314
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2017",
+        "value": 10082
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2017",
+        "value": 8725
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2017",
+        "value": 7890
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2017",
+        "value": 7746
+    },
+    {
+        "color": "Australian National University",
+        "label": "2017",
+        "value": 4102
+    },
+    {
+        "color": "University of Sydney",
+        "label": "2018",
+        "value": 10193
+    },
+    {
+        "color": "University of Melbourne",
+        "label": "2018",
+        "value": 8811
+    },
+    {
+        "color": "University of New South Wales",
+        "label": "2018",
+        "value": 7985
+    },
+    {
+        "color": "University of Queensland",
+        "label": "2018",
+        "value": 7959
+    },
+    {
+        "color": "Australian National University",
+        "label": "2018",
+        "value": 3914
+    }
+]

@@ -1,4 +1,4 @@
-<div class="scene container portfolio scene--active" id="portfolio">
+<div class="portfolio">
     <div class="scene-header">
         <div class="text-center">
             Portfolio
@@ -7,81 +7,26 @@
             681,926
         </div>
         <p class="text--positive text-center">
-            6.8%
+        6.8%
         </p>
     </div>
-    <div class="portfolio-row">
+    <div class="portfolio-row" v-for="(artist, i) in artists">
         <router-link to="/profile" class="portfolio-item portfolio-item--name">
-            Tabor Robak
+            {{artist[0]}}
         </router-link>
         <div class="portfolio-item portfolio-item--chart">
-            <div v-vis class="vis"></div>
         </div>
         <div class="portfolio-item portfolio-item--price">
-            53, 168
+            {{artist[1]}}
             <p class="text--positive text-center small flat">
                 6.8%
             </p>
+            <button @click="remove(i)" class="portfolio-item__action" hidden>
+                <i class="fa fa-minus-circle"></i>
+            </button>
         </div>
     </div>
-    <div class="portfolio-row">
-        <router-link to="/profile" class="portfolio-item portfolio-item--name">
-            Helen Marten
-        </router-link>
-        <div class="portfolio-item portfolio-item--chart">
-            <div v-vis class="vis"></div>
-        </div>
-        <div class="portfolio-item portfolio-item--price">
-            53, 168
-            <p class="text--positive text-center small flat">
-                6.8%
-            </p>
-        </div>
-    </div>
-    <div class="portfolio-row">
-        <router-link to="/profile" class="portfolio-item portfolio-item--name">
-            Ai Weiwei
-        </router-link>
-        <div class="portfolio-item portfolio-item--chart">
-            <div v-vis class="vis"></div>
-        </div>
-        <div class="portfolio-item portfolio-item--price">
-            53, 168
-            <p class="text--positive text-center small flat">
-                6.8%
-            </p>
-        </div>
-    </div>
-    <div class="portfolio-row">
-        <router-link to="/profile" class="portfolio-item portfolio-item--name">
-            Andrea Zittel
-        </router-link>
-        <div class="portfolio-item portfolio-item--chart">
-            <div v-vis class="vis"></div>
-        </div>
-        <div class="portfolio-item portfolio-item--price">
-            53, 168
-            <p class="text--positive text-center small flat">
-                6.8%
-            </p>
-        </div>
-    </div>
-    <div class="portfolio-row">
-        <router-link to="/profile" class="portfolio-item portfolio-item--name">
-            Ryan Gander
-        </router-link>
-        <div class="portfolio-item portfolio-item--chart">
-            <div v-vis class="vis"></div>
-        </div>
-        <div class="portfolio-item portfolio-item--price">
-            53, 168
-            <p class="text--positive text-center small">
-                6.8%
-            </p>
-        </div>
-    </div>
-
     <p hidden>
-        <router-link to="/">Back to Home</router-link>
+    <router-link to="/">Back to Home</router-link>
     </p>
 </div>
